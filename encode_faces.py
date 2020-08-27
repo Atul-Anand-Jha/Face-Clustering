@@ -42,7 +42,8 @@ for (i, imagePath) in enumerate(imagePaths):
 
 	# compute the facial embedding for the face
 	encodings = face_recognition.face_encodings(rgb, boxes)
-
+	# Len of encodings : 128 d-vector
+	
 	# build a dictionary of the image path, bounding box location,
 	# and facial encodings for the current image
 	d = [{"imagePath": imagePath, "loc": box, "encoding": enc}
