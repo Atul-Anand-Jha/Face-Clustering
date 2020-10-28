@@ -42,7 +42,7 @@ I have put together a dataset of **five soccer players**, including:
 - **Lionel Messi**
 - **Luis Suarez**
 
-In total, there are **129 images** in the dataset. *It is not necessary to put them in seperate folders.* I have done it for ease in organizing images, only.
+In total, there are **125 images** in the dataset. *It is not necessary to put them in seperate folders.* I have done it for ease in organizing images, only.
 
 Our goal will be to extract features quantifying each face in the image and cluster the resulting “facial feature vectors”. Ideally each soccer player will have their own respective cluster containing just their faces.
 
